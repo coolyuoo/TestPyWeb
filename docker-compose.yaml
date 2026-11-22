@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    image: my-fastapi-app:1.0
+    container_name: fastapi-container
+    ports:
+      - "8090:8090"
+    command: ["python", "main.py"]

@@ -4,7 +4,7 @@ import uvicorn
 app = FastAPI()
 
 @app.get("/")
-def read_root(name: str = "hello docker"):
+def read_root(name: str = "hello dockerssssss"):
     """Root endpoint. Optional query param `name` (default: PyCharm)."""
     return {"message": f"Hi, {name}"}
 
