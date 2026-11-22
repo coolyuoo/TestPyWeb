@@ -4,5 +4,5 @@ services:
     image: my-fastapi-app:1.0
     container_name: fastapi-container
     ports:
-      - "8090:8090"
+      - "8098:8000"
     command: ["python", "main.py"]
